@@ -1,8 +1,6 @@
 // add dependencies
-// const inquirer = require('inquirer');
-// const sql = require('mysql2');
 const logo = require('asciiart-logo');
-// const config = require('./package.json');
+const cTable = require('console.table');
 
 // add custom modules
 const startPrompts = require('./lib/InitPrompt');
