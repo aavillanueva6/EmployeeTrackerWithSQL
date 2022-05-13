@@ -6,6 +6,7 @@ const cTable = require('console.table');
 const startPrompts = require('./lib/InitPrompt');
 
 function init() {
+  // adds logo to start screen on application load
   console.log(
     logo({
       name: 'Employee Tracker',
@@ -13,6 +14,7 @@ function init() {
       font: 'Fender',
     }).render()
   );
+  // runs the initial set of prompts for the user
   startPrompts();
 }
 
