@@ -1,4 +1,5 @@
 USE employees_db;
+-- Seed data taken from video in HW brief
 
 INSERT INTO department (name)
 VALUES  ("Sales"),
