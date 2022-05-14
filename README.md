@@ -14,8 +14,8 @@ The user is able to create, view, and delete employees, roles, and departments. 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Tests](#tests)
+- [Demo](#demo)
 - [License](#license)
 - [Questions](#questions)
 
