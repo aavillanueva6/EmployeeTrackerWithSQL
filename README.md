@@ -25,7 +25,7 @@ The user is able to create, view, and delete employees, roles, and departments. 
 
 To install this application, download all of the files from the repository to a local directory on your machine. The application was built on node.js v16.14.2, and a compatible installation of node.js is required to use the application.
 
-After downloading all of the files from the repository, your mySQL user name and password need to be coded into the object inside of the createConnection method (`const db = sql.createConnection()`). The database configuration is in the /db/schema.sql file, and example data for the tables is in the /db/seeds.sql file. Each of these should be run from a mySQL interface to establish the database and populate it with data.
+After downloading all of the files from the repository, your mySQL user name and password need to be coded into the object inside of the createConnection method in the /config/connection.js file (`const db = sql.createConnection()`). The database configuration is in the /db/schema.sql file, and example data for the tables is in the /db/seeds.sql file. Each of these should be run from a mySQL interface to establish the database and populate it with data.
 
 From the terminal, run `npm i` to install all dependencies from the package.json.
 
